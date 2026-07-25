@@ -47,7 +47,7 @@ The processor supports a custom subset of the MIPS32 ISA, handling core operatio
 * `forwarding_unit.v` - Hazard detection and data bypassing logic.
 * `reg_bank.v` - 32-bit register file with two-phase clocking support.
 * `dual_port_RAM.v` & `src/dmem.v` - Instruction and Data memories.
-* `mips_tb.v` - Simulation testbench for full pipeline verification.
+* `mips_test.v` - Simulation testbench for full pipeline verification.
 
 
 ## 📊 Simulation & Verification
