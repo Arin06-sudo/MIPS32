@@ -68,4 +68,5 @@ The processor has been extensively verified using **Xilinx Vivado Simulator (XSi
 2. Open **Vivado** and create a generic RTL project.
 3. Add all Verilog files as Design Sources.
 4. Add the `tb/mips_tb.v` file as a Simulation Source and set it as the top module.
-5. Run **Behavioral Simulation** to observe the pipeline stages, forwarding multiplexers, and register updates in the waveform viewer.
+5. create your custom program using the ISA mentioned in the machine instruction binary encoding folder and then initialise these instructions in dual_port_RAM module
+6. Run **Behavioral Simulation** to observe the pipeline stages, forwarding multiplexers, and register updates in the waveform viewer.
