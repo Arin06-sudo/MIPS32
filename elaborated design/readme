@@ -1,2 +1,2 @@
 mips contains the connection between datapath and controller
-mips2 contains all the blocks and their interconnections inside the datapath
+mips3 contains all the blocks and their interconnections inside the datapath
